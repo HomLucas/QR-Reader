@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0D08D001CBB816E00D9E5C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D08CFF1CBB816E00D9E5C6 /* AppDelegate.swift */; };
+		A0D08D021CBB816E00D9E5C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D08D011CBB816E00D9E5C6 /* ViewController.swift */; };
+		A0D08D051CBB816E00D9E5C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D08D031CBB816E00D9E5C6 /* Main.storyboard */; };
+		A0D08D071CBB816E00D9E5C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D08D061CBB816E00D9E5C6 /* Assets.xcassets */; };
+		A0D08D0A1CBB816E00D9E5C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D08D081CBB816E00D9E5C6 /* LaunchScreen.storyboard */; };
+		A0D08D151CBB816F00D9E5C6 /* Lucas_QR_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D08D141CBB816F00D9E5C6 /* Lucas_QR_ReaderTests.swift */; };
+		A0D08D201CBB816F00D9E5C6 /* Lucas_QR_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D08D1F1CBB816F00D9E5C6 /* Lucas_QR_ReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D08D111CBB816F00D9E5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D08CF41CBB816E00D9E5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D08CFB1CBB816E00D9E5C6;
+			remoteInfo = "Lucas QR Reader";
+		};
+		A0D08D1C1CBB816F00D9E5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D08CF41CBB816E00D9E5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D08CFB1CBB816E00D9E5C6;
+			remoteInfo = "Lucas QR Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0D08CFC1CBB816E00D9E5C6 /* Lucas QR Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucas QR Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D08CFF1CBB816E00D9E5C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0D08D011CBB816E00D9E5C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0D08D041CBB816E00D9E5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0D08D061CBB816E00D9E5C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D08D091CBB816E00D9E5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0D08D0B1CBB816E00D9E5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D08D101CBB816F00D9E5C6 /* Lucas QR ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucas QR ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D08D141CBB816F00D9E5C6 /* Lucas_QR_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucas_QR_ReaderTests.swift; sourceTree = "<group>"; };
+		A0D08D161CBB816F00D9E5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D08D1B1CBB816F00D9E5C6 /* Lucas QR ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucas QR ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D08D1F1CBB816F00D9E5C6 /* Lucas_QR_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucas_QR_ReaderUITests.swift; sourceTree = "<group>"; };
+		A0D08D211CBB816F00D9E5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0D08CF91CBB816E00D9E5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D08D0D1CBB816F00D9E5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D08D181CBB816F00D9E5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0D08CF31CBB816E00D9E5C6 = {
+			isa = PBXGroup;
+			children = (
+				A0D08CFE1CBB816E00D9E5C6 /* Lucas QR Reader */,
+				A0D08D131CBB816F00D9E5C6 /* Lucas QR ReaderTests */,
+				A0D08D1E1CBB816F00D9E5C6 /* Lucas QR ReaderUITests */,
+				A0D08CFD1CBB816E00D9E5C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D08CFD1CBB816E00D9E5C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D08CFC1CBB816E00D9E5C6 /* Lucas QR Reader.app */,
+				A0D08D101CBB816F00D9E5C6 /* Lucas QR ReaderTests.xctest */,
+				A0D08D1B1CBB816F00D9E5C6 /* Lucas QR ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0D08CFE1CBB816E00D9E5C6 /* Lucas QR Reader */ = {
+			isa = PBXGroup;
+			children = (
+				A0D08CFF1CBB816E00D9E5C6 /* AppDelegate.swift */,
+				A0D08D011CBB816E00D9E5C6 /* ViewController.swift */,
+				A0D08D031CBB816E00D9E5C6 /* Main.storyboard */,
+				A0D08D061CBB816E00D9E5C6 /* Assets.xcassets */,
+				A0D08D081CBB816E00D9E5C6 /* LaunchScreen.storyboard */,
+				A0D08D0B1CBB816E00D9E5C6 /* Info.plist */,
+			);
+			path = "Lucas QR Reader";
+			sourceTree = "<group>";
+		};
+		A0D08D131CBB816F00D9E5C6 /* Lucas QR ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D08D141CBB816F00D9E5C6 /* Lucas_QR_ReaderTests.swift */,
+				A0D08D161CBB816F00D9E5C6 /* Info.plist */,
+			);
+			path = "Lucas QR ReaderTests";
+			sourceTree = "<group>";
+		};
+		A0D08D1E1CBB816F00D9E5C6 /* Lucas QR ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D08D1F1CBB816F00D9E5C6 /* Lucas_QR_ReaderUITests.swift */,
+				A0D08D211CBB816F00D9E5C6 /* Info.plist */,
+			);
+			path = "Lucas QR ReaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0D08CFB1CBB816E00D9E5C6 /* Lucas QR Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D08D241CBB816F00D9E5C6 /* Build configuration list for PBXNativeTarget "Lucas QR Reader" */;
+			buildPhases = (
+				A0D08CF81CBB816E00D9E5C6 /* Sources */,
+				A0D08CF91CBB816E00D9E5C6 /* Frameworks */,
+				A0D08CFA1CBB816E00D9E5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lucas QR Reader";
+			productName = "Lucas QR Reader";
+			productReference = A0D08CFC1CBB816E00D9E5C6 /* Lucas QR Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0D08D0F1CBB816F00D9E5C6 /* Lucas QR ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D08D271CBB816F00D9E5C6 /* Build configuration list for PBXNativeTarget "Lucas QR ReaderTests" */;
+			buildPhases = (
+				A0D08D0C1CBB816F00D9E5C6 /* Sources */,
+				A0D08D0D1CBB816F00D9E5C6 /* Frameworks */,
+				A0D08D0E1CBB816F00D9E5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D08D121CBB816F00D9E5C6 /* PBXTargetDependency */,
+			);
+			name = "Lucas QR ReaderTests";
+			productName = "Lucas QR ReaderTests";
+			productReference = A0D08D101CBB816F00D9E5C6 /* Lucas QR ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0D08D1A1CBB816F00D9E5C6 /* Lucas QR ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D08D2A1CBB816F00D9E5C6 /* Build configuration list for PBXNativeTarget "Lucas QR ReaderUITests" */;
+			buildPhases = (
+				A0D08D171CBB816F00D9E5C6 /* Sources */,
+				A0D08D181CBB816F00D9E5C6 /* Frameworks */,
+				A0D08D191CBB816F00D9E5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D08D1D1CBB816F00D9E5C6 /* PBXTargetDependency */,
+			);
+			name = "Lucas QR ReaderUITests";
+			productName = "Lucas QR ReaderUITests";
+			productReference = A0D08D1B1CBB816F00D9E5C6 /* Lucas QR ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0D08CF41CBB816E00D9E5C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lucas Hom";
+				TargetAttributes = {
+					A0D08CFB1CBB816E00D9E5C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GRPEX3VNTB;
+					};
+					A0D08D0F1CBB816F00D9E5C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GRPEX3VNTB;
+						TestTargetID = A0D08CFB1CBB816E00D9E5C6;
+					};
+					A0D08D1A1CBB816F00D9E5C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GRPEX3VNTB;
+						TestTargetID = A0D08CFB1CBB816E00D9E5C6;
+					};
+				};
+			};
+			buildConfigurationList = A0D08CF71CBB816E00D9E5C6 /* Build configuration list for PBXProject "Lucas QR Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0D08CF31CBB816E00D9E5C6;
+			productRefGroup = A0D08CFD1CBB816E00D9E5C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D08CFB1CBB816E00D9E5C6 /* Lucas QR Reader */,
+				A0D08D0F1CBB816F00D9E5C6 /* Lucas QR ReaderTests */,
+				A0D08D1A1CBB816F00D9E5C6 /* Lucas QR ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0D08CFA1CBB816E00D9E5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D08D0A1CBB816E00D9E5C6 /* LaunchScreen.storyboard in Resources */,
+				A0D08D071CBB816E00D9E5C6 /* Assets.xcassets in Resources */,
+				A0D08D051CBB816E00D9E5C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D08D0E1CBB816F00D9E5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D08D191CBB816F00D9E5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0D08CF81CBB816E00D9E5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D08D021CBB816E00D9E5C6 /* ViewController.swift in Sources */,
+				A0D08D001CBB816E00D9E5C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D08D0C1CBB816F00D9E5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D08D151CBB816F00D9E5C6 /* Lucas_QR_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D08D171CBB816F00D9E5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D08D201CBB816F00D9E5C6 /* Lucas_QR_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0D08D121CBB816F00D9E5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D08CFB1CBB816E00D9E5C6 /* Lucas QR Reader */;
+			targetProxy = A0D08D111CBB816F00D9E5C6 /* PBXContainerItemProxy */;
+		};
+		A0D08D1D1CBB816F00D9E5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D08CFB1CBB816E00D9E5C6 /* Lucas QR Reader */;
+			targetProxy = A0D08D1C1CBB816F00D9E5C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0D08D031CBB816E00D9E5C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D08D041CBB816E00D9E5C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0D08D081CBB816E00D9E5C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D08D091CBB816E00D9E5C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0D08D221CBB816F00D9E5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0D08D231CBB816F00D9E5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D08D251CBB816F00D9E5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lucas QR Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lucashom.Lucas-QR-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0D08D261CBB816F00D9E5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lucas QR Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lucashom.Lucas-QR-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0D08D281CBB816F00D9E5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lucas QR ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lucashom.Lucas-QR-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucas QR Reader.app/Lucas QR Reader";
+			};
+			name = Debug;
+		};
+		A0D08D291CBB816F00D9E5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lucas QR ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lucashom.Lucas-QR-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucas QR Reader.app/Lucas QR Reader";
+			};
+			name = Release;
+		};
+		A0D08D2B1CBB816F00D9E5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lucas QR ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lucashom.Lucas-QR-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lucas QR Reader";
+			};
+			name = Debug;
+		};
+		A0D08D2C1CBB816F00D9E5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lucas QR ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lucashom.Lucas-QR-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lucas QR Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0D08CF71CBB816E00D9E5C6 /* Build configuration list for PBXProject "Lucas QR Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D08D221CBB816F00D9E5C6 /* Debug */,
+				A0D08D231CBB816F00D9E5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D08D241CBB816F00D9E5C6 /* Build configuration list for PBXNativeTarget "Lucas QR Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D08D251CBB816F00D9E5C6 /* Debug */,
+				A0D08D261CBB816F00D9E5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0D08D271CBB816F00D9E5C6 /* Build configuration list for PBXNativeTarget "Lucas QR ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D08D281CBB816F00D9E5C6 /* Debug */,
+				A0D08D291CBB816F00D9E5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0D08D2A1CBB816F00D9E5C6 /* Build configuration list for PBXNativeTarget "Lucas QR ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D08D2B1CBB816F00D9E5C6 /* Debug */,
+				A0D08D2C1CBB816F00D9E5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0D08CF41CBB816E00D9E5C6 /* Project object */;
+}
